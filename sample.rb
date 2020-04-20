@@ -10,3 +10,12 @@ puts <<TEXT
 目標は月収１００万です
 
 TEXT
+
+
+users = {"saitou", "nao","kota"}
+
+
+users.each do |user|
+  
+puts user
+end
